@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.wrapper {
+  background-color: rgb(248, 246, 246);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montsersrat", sans-serif;
+}
+h1.title {
+  padding-top: 50px;
+  font-size: 30px;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+h2.head-title-desc {
+  margin-left: 223px;
+  font-size: 25px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.flex > img {
+  height: 200px;
+  width: 200px;
+}
+.prop {
+  height: 50px;
+}
+.headTitle {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 16px;
+}
+ul.hr {
+  /* внешние отступы */
+  margin: 0px;
+  padding: 4px;
+}
+ul.hr li {
+  display: inline;
+  border: 1px solid grey;
+  margin-right: 5px;
+}
+/* .headTitle {
+  text-align: center;
+} */
+.comp {
+  display: inline;
+  float: right;
+  margin-bottom: 15px;
+}
+.subTitle {
+  text-align: center;
+  margin-top: 15px;
+  padding: auto;
+}
+.main {
+  display: flex;
+}
+.main-pic {
+  margin: 15px;
+}
+.desc-price li {
+  margin: 10px;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+.data {
+  margin: 15px;
+}
+.img {
+  height: 300px;
+  width: 300px;
+}
+div.flex {
+  padding-bottom: 30px;
+}
+ul.desc-title {
+  list-style-type: none;
+}
+ul.desc-title > li > a {
+  text-decoration: none;
+  color: black;
+}
+ul.desc-title > li {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.work {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.work > h2 {
+  text-align: center;
+}
+.work > ul {
+  list-style-type: none;
+}
+.work > ul > li {
+  padding: 6px 0px;
+}
+ul.work-desc > li {
+  list-style-type: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 18px;
+  /* border: 1px solid black; */
+}
+.study > button {
+  font-size: 24px;
+  text-align: center;
+  margin-left: 30px;
+}
+.study > .flex > img {
+  height: 200px;
+  width: 200px;
+  padding-left: 10px;
+}
+.study > .flex > ul {
+  list-style-type: none;
+}
+.study > .flex > ul > li {
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+.study-list > ul {
+  list-style-type: none;
+}
+.study-list > ul > li {
+  padding: 6px 0px;
+}
+div.flex {
+  padding-top: 25px;
+}
+img.img {
+  margin-left: 10px;
+}
+.med-title > h3 {
+  font-size: 26px;
+  /* display: none; */
+}
+h3.study-title {
+  font-size: 21px;
+  text-align: center;
+}
+button {
+  text-align: center;
+  margin-left: 225px;
+}
+/* для всех ul */
+ul {
+  font-size: 16px;
+}
+h3.med-title {
+  font-size: 16px;
+  text-align: center;
+}
+.building-title > h3 {
+  font-size: 26px;
+  /* display: none; */
+}
+.img > img {
+  height: 200px;
+  width: 200px;
+}
+.med-list > ul {
+  list-style-type: none;
+}
+.med-list > ul > li {
+  padding: 6px 0px;
+}
+.study-list > .flex > ul {
+  display: block;
+}
+.building-list > ul {
+  list-style-type: none;
+}
+.building-list > ul > li {
+  padding: 6px 0px;
+}
+.flex-price {
+  display: flex;
+  width: 1000px;
+  height: 30f0px;
+  border: 2px dotted rgb(165, 161, 161);
+}
+.flex.price {
+  padding: 6px 10px;
+}
+.price-first {
+  /* display: flex; */
+  width: 250px;
+  height: 250px;
+  border: 3px SOLID rgb(82, 141, 218);
+  border-radius: 8px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+img.price-mini {
+  height: 80px;
+  width: 80px;
+  padding-top: 18px;
+  display: none;
+}
+.price-first > div.flex {
+  margin-top: 0px;
+  /* display: none; */
+  /* margin-bottom: 200px; */
+  padding-bottom: 0px;
+}
+.price-first > .flex > ul {
+  padding-left: 10px;
+}
+.price-first > .flex {
+  padding-top: 0px;
+}
+
+.price-first > .flex > ul > li {
+  font-size: 13px;
+  list-style-type: none;
+  margin-bottom: 4px;
+}
+.price-first > h5 {
+  margin-top: 6px;
+  margin-left: 40px;
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+h5.result-mini-price {
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-bottom: 70px;
+  display: block;
+  font-size: 16px;
+}
+.price-second {
+  width: 250px;
+  height: 250px;
+  border: 3px SOLID rgb(70, 14, 160);
+  margin-left: 10px;
+  border-radius: 8px;
+}
+.price-second > h5 {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.price-second > .flex {
+  padding-top: 0px;
+}
+
+.price-second > .flex > ul {
+  padding-left: 10px;
+}
+img.price-medium {
+  height: 80px;
+  width: 80px;
+  padding-top: 18px;
+  display: none;
+}
+.price-second > .flex > ul > li {
+  list-style-type: none;
+  font-size: 13px;
+}
+h5.result-medium-price {
+  margin-top: 90px;
+  margin-left: 30px;
+  margin-bottom: 70px;
+  display: block;
+  font-size: 16px;
+}
+.price-third {
+  width: 250px;
+  height: 250px;
+  border: 3px SOLID rgb(24, 209, 64);
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.flex.price > div > h4 {
+  padding-left: 50px;
+}
+.maxi-price {
+  margin-top: 75px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.price-first > .flex > ul {
+  margin-top: 0p;
+  list-style-type: none;
+}
+.price-first > ul > li {
+  /* padding-top: 4px; */
+  font-size: 13px;
+}
+img.price-max {
+  display: none;
+  height: 80px;
+  width: 80px;
+  padding-top: 18px;
+}
+.price-third > h5 {
+  margin-top: 6px;
+  margin-bottom: 0px;
+  /* width: 190px; */
+  font-size: 16px;
+  margin-left: 35px;
+}
+.price-third > .flex {
+  padding-top: 0px;
+}
+img.price-max {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.price-third > .flex {
+  padding-top: 0px;
+  /* margin-top: 0px; */
+}
+.price-third > .flex > ul {
+  /* padding-top: 10px; */
+  padding-left: 10px;
+}
+.price-third > .flex > ul {
+  list-style-type: none;
+}
+.price-third > .flex > ul > li {
+  font-size: 13px;
+  padding: 4px;
+}
+.price-fours {
+  width: 250px;
+  height: 250px;
+  border: 3px SOLID rgb(24, 209, 64);
+  border-radius: 8px;
+  margin-left: 10px;
+  padding-left: 6px;
+}
+.price-fours > h5 {
+  font-size: 16px;
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.price-fours > ul > li {
+  list-style-type: none;
+  font-size: 13px;
+  padding: 6px;
+}
+.price-fours > ul {
+  padding-left: 6px;
+}
+h5.audit-price {
+  margin-top: 73px;
+  margin-left: 35px;
+}
+.actions {
+  border: 2px solid lightsalmon;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.things-about-us {
+  border: 2px solid lightseagreen;
+  border-radius: 8px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.action-img-1 {
+  width: 31%;
+  border: 1px solid green;
+  margin-left: 10px;
+}
+.action-img-2 {
+  width: 31%;
+  border: 1px solid green;
+  margin-left: 10px;
+}
+.action-img-3 {
+  width: 31%;
+  border: 1px solid green;
+  margin-left: 10px;
+}
